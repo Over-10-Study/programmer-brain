@@ -6,3 +6,41 @@
 셋째, 코드가 너무 복잡해서 혼란이 생기는 경우인데, 이는 두뇌의 처리 용량이 부족하기 때문이다.
 
 ![image](https://user-images.githubusercontent.com/31182783/188247991-fb41c880-5b93-42b2-99f2-4e1b05ce3dc8.png)
+
+
+
+# 2장 연습문제
+
+다음 코드를 주제로 연습함.    
+https://github.com/netty/netty/blob/3ba2eed16a627371839c63113cdb39df9d6bfe35/codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java    
+
+작성한 코드:   
+```
+class Scratch {
+    public static void main(String[] args) {
+        String mode = "";
+        switch(mode) {
+
+            case "READ_HEADER": {
+
+            }
+
+            case "READ_VARIABLE_CONTENT": {
+
+            }
+
+            case "READ_FIXED_CONTENT": {
+
+            }
+
+            case "READ_CHUNK": {
+
+            }
+            
+            case "BAD_REQUEST": {
+                
+            }
+        }
+    }
+}
+```
